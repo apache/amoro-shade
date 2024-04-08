@@ -29,6 +29,7 @@ under the License.
     <artifactId>amoro-shade</artifactId>
     <modules>
         <module>amoro-shade-guava-32</module>
+        <module>amoro-shade-jackson-parent</module>
     </modules>
     <groupId>org.apache.amoro</groupId>
     <name>amoro-shade</name>
