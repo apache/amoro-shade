@@ -27,7 +27,9 @@ under the License.
     </parent>
 
     <artifactId>amoro-shade</artifactId>
-
+    <modules>
+        <module>amoro-shade-guava-32</module>
+    </modules>
     <groupId>org.apache.amoro</groupId>
     <name>amoro-shade</name>
     <version>0.7-SNAPSHOT</version>
@@ -58,6 +60,11 @@ under the License.
             <url>${distMgmtSnapshotsUrl}</url>
         </pluginRepository>
     </pluginRepositories>
+
+    <properties>
+        <shading.prefix>org.apache.amoro.shade</shading.prefix>
+        <guava.version>32.1.1-jre</guava.version>
+    </properties>
 
     <profiles>
         <profile>
