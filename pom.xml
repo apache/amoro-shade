@@ -30,6 +30,8 @@ under the License.
     <modules>
         <module>amoro-shade-guava-32</module>
         <module>amoro-shade-jackson-parent</module>
+        <module>amoro-shade-zookeeper-3</module>
+        <module>amoro-shade-thrift</module>
     </modules>
     <groupId>org.apache.amoro</groupId>
     <name>amoro-shade</name>
@@ -65,6 +67,7 @@ under the License.
     <properties>
         <shading.prefix>org.apache.amoro.shade</shading.prefix>
         <guava.version>32.1.1-jre</guava.version>
+        <thrift.version>0.20.0</thrift.version>
     </properties>
 
     <profiles>
@@ -279,5 +282,4 @@ under the License.
             </plugin>
         </plugins>
     </build>
-
 </project>
