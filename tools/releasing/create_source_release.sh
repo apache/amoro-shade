@@ -68,10 +68,10 @@ rsync -a \
   --exclude ".idea" --exclude "*.iml" --exclude ".DS_Store" \
   . amoro-shade-$RELEASE_VERSION
 
-tar czf amoro-shade-${RELEASE_VERSION}-src.tgz amoro-shade-$RELEASE_VERSION
-gpg --armor --detach-sig amoro-shade-$RELEASE_VERSION-src.tgz
-$SHASUM amoro-shade-$RELEASE_VERSION-src.tgz > amoro-shade-$RELEASE_VERSION-src.tgz.sha512
+tar czf apache-amoro-shade-${RELEASE_VERSION}-src.tar.gz amoro-shade-$RELEASE_VERSION
+gpg --armor --detach-sig apache-amoro-shade-$RELEASE_VERSION-src.tar.gz
+$SHASUM apache-amoro-shade-$RELEASE_VERSION-src.tar.gz > apache-amoro-shade-$RELEASE_VERSION-src.tar.gz.sha512
 
-mv amoro-shade-$RELEASE_VERSION-src.* ../
+mv apache-amoro-shade-$RELEASE_VERSION-src.* ../
 cd ..
 rm -rf amoro-shade-tmp-clone
