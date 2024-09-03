@@ -22,12 +22,12 @@ under the License.
     <parent>
         <groupId>org.apache.amoro</groupId>
         <artifactId>amoro-shade</artifactId>
-        <version>0.7-SNAPSHOT</version>
+        <version>0.8-SNAPSHOT</version>
     </parent>
 
     <artifactId>amoro-shade-zookeeper-3</artifactId>
     <name>amoro-shade-zookeeper-3</name>
-    <version>${zookeeper.version}-0.7-SNAPSHOT</version>
+    <version>${zookeeper.version}-0.8-SNAPSHOT</version>
 
     <properties>
         <zookeeper.version>3.9.1</zookeeper.version>
