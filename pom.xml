@@ -35,7 +35,7 @@ under the License.
     </modules>
     <groupId>org.apache.amoro</groupId>
     <name>amoro-shade</name>
-    <version>0.7-SNAPSHOT</version>
+    <version>0.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <url>https://amoro.apache.org</url>

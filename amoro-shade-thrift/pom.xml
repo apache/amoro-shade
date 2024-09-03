@@ -22,12 +22,12 @@ under the License.
     <parent>
         <groupId>org.apache.amoro</groupId>
         <artifactId>amoro-shade</artifactId>
-        <version>0.7-SNAPSHOT</version>
+        <version>0.8-SNAPSHOT</version>
     </parent>
 
     <artifactId>amoro-shade-thrift</artifactId>
     <name>amoro-shade-thrift</name>
-    <version>${thrift.version}-0.7-SNAPSHOT</version>
+    <version>${thrift.version}-0.8-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
