@@ -23,7 +23,7 @@ under the License.
     <parent>
         <groupId>org.apache.amoro</groupId>
         <artifactId>amoro-shade-jackson-parent</artifactId>
-        <version>2.14.2-0.8-SNAPSHOT</version>
+        <version>2.14.2-0.9-SNAPSHOT</version>
     </parent>
 
     <artifactId>amoro-shade-jackson-module-jsonSchema-2</artifactId>
